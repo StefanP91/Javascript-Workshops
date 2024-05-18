@@ -1,19 +1,26 @@
-// Checking Age for Different Ticket Prices
+// Simple Login System (if credentials match)
 
-let age=61;
+let enterUsername=null; // field for enter username
+let enterPassword=null; // field for enter password
 
-if(age<=0){
-    console .log("You entered a incorrect age");
+
+adminUsername = "admin";
+adminPassword = "adminpass";
+userUsername = "user123";
+userPassword = "password123";
+
+
+if(enterUsername==null && enterPassword==null){
+  console.log("");  
+} 
+else if((enterUsername==adminUsername && enterPassword==adminPassword) && (adminUsername=="admin" && adminPassword=="adminpass")){
+    console.log("Welcome, Admin!");
 }
-else if(age<12){
-    console .log("Child ticket: $5");
-}
-else if (age>=12 && age<18){
-    console .log("Teen ticket: $7");
-}
-else if (age>=18 && age<=60){
-    console .log("Adult ticket: $10");
+else if((enterUsername==userUsername && enterPassword==userPassword) && (userUsername=="user123" && userPassword=="password123")){
+    console.log("Welcome, User123!");
 }
 else{
-    console .log("Senior ticket: $10");
+    console.log("Invalid Username or Password.");
 }
+
+
