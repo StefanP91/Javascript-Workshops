@@ -1,19 +1,16 @@
-// Checking Age for Different Ticket Prices
+// Determining Weather Advice
 
-let age=61;
+let weather ="sunny";
 
-if(age<=0){
-    console .log("You entered a incorrect age");
+if(weather=="sunny"){
+    console.log ("Wear sunglasses!")
 }
-else if(age<12){
-    console .log("Child ticket: $5");
+else if(weather=="rainy"){
+    console .log ("Take an umbrella!")
 }
-else if (age>=12 && age<18){
-    console .log("Teen ticket: $7");
-}
-else if (age>=18 && age<=60){
-    console .log("Adult ticket: $10");
+else if(weather=="snowy"){
+    console .log ("Wear a warm coat!")
 }
 else{
-    console .log("Senior ticket: $10");
+    console .log ("Check the weather forecast for more details!")
 }
