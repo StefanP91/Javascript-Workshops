@@ -1,16 +1,16 @@
-// Checking Day of the Week
+// Determining Weather Advice
 
-let day = "Monday";
+let weather ="sunny";
 
-if(day =="Monday"){
-    console.log("Start of the week");
+if(weather=="sunny"){
+    console.log ("Wear sunglasses!")
 }
-else if(day=="Wednesday"){
-    console .log("Midweek");
+else if(weather=="rainy"){
+    console .log ("Take an umbrella!")
 }
-else if(day=="Friday"){
-    console .log("Almost weekend");
+else if(weather=="snowy"){
+    console .log ("Wear a warm coat!")
 }
 else{
-    console .log("Just another day");
+    console .log ("Check the weather forecast for more details!")
 }
