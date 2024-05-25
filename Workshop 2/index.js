@@ -1,12 +1,3 @@
-// Task 1
+let  sentence = "I love cats, cats are awesome"
 
-let email = "           TEST@test.com"
-
-if (email.startsWith(" ")) {
-    console.log(email.trim() .toLocaleLowerCase())
-}
-
-else{
-    console .log(email.toLocaleLowerCase)
-}
-
+console.log(sentence.replaceAll("cats", "dogs"))
