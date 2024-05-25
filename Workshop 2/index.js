@@ -1,12 +1,14 @@
-// Task 1
+// Task 5
 
-let email = "           TEST@test.com"
+let firstName = "John"
+let lastName = "Doe"
+let fullName = (firstName.concat(" ", lastName))
 
-if (email.startsWith(" ")) {
-    console.log(email.trim() .toLocaleLowerCase())
+if (firstName.length >=3 && lastName.length >=3) {
+    console.log(("Hello"), (fullName), ("!"));
 }
 
-else{
-    console .log(email.toLocaleLowerCase)
+else {
+    console.log ("Invalid name")
 }
 
