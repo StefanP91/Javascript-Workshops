@@ -1,12 +1,24 @@
-// Task 1
+// Task 3
 
-let email = "           TEST@test.com"
+let filename = "text.txt"
 
-if (email.startsWith(" ")) {
-    console.log(email.trim() .toLocaleLowerCase())
+if (filename.endsWith(".txt")) {
+    console.log("The file is a text file")
 }
 
-else{
-    console .log(email.toLocaleLowerCase)
+else if (filename.endsWith(".pdf")) {
+    console.log("The file is a pdf file")
 }
 
+else if (filename.endsWith(".jpg")) {
+    console.log("The file is an image file")
+}
+
+else if (filename.endsWith(".css")) {
+    console.log("The file is a CSS file")
+
+}
+
+else {
+    console.log("Invalid file name")
+}
