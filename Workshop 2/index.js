@@ -1,12 +1,15 @@
-// Task 1
+// Task 2
 
-let email = "           TEST@test.com"
+let link = "https://www.google.com"
 
-if (email.startsWith(" ")) {
-    console.log(email.trim() .toLocaleLowerCase())
+if (link.startsWith("https://")) {
+    console.log("This URL is secure")
 }
 
-else{
-    console .log(email.toLocaleLowerCase)
+else if (link.startsWith("http://")) {
+    console.log("Warning: The URL is not secure")
 }
 
+else {
+    console.log("Invalid URL")
+}
